@@ -6,7 +6,7 @@ This repo contains Firedrake scripts for finding the steady-state flow and tempe
 
 All scripts execute in at most a few core-minutes on a laptop.
 
-Note on units: the scripts use units scaled to the free-fall velocity, $u_0 = \sqrt{g \beta  \Delta T}$, (see Appendix B.2 of M6c.3 ExCALIBUR report), so that
+Note on units: the scripts use units scaled to the free-fall velocity, $u_0 = \sqrt{g \beta  \Delta T}$, (see Appendix B.2 of M6c.3 ExCALIBUR report FMS/0074), so that
 
 $$ 
 \begin{align}

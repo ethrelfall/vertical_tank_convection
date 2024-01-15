@@ -18,7 +18,7 @@ $$
 
 In these units, I believe the heat flux is given by $F = \frac{1}{\sqrt{Pr}} \nabla T$.  This agrees with the code outputs (for steady-state solutions, the flux into the LHS must equal the flux out of the RHS).
 
-In all cases, the Nusselt number is computed as the ratio of heat flux across the slow with flow to the same quantity in the purely conducting case.
+In all cases, the Nusselt number is computed as the ratio of heat flux across the slot including fluid flow to the same quantity in the purely conducting case.
 
 **Leeds_vertical_convection_MIT.py** - reproduces the flow from https://wwwold.mathematik.tu-dortmund.de/~featflow/en/benchmarks/cfdbenchmarking/mit_benchmark/mit_result.html assuming that the flow is steady (which is at least very nearly true).  The script gives a Nusselt number of $4.577$, which compares well the the values in the reference.  Note that in order to obtain the solution at the values of Rayleigh and Prandtl numbers required by the benchmark, it is necessary to use continuation i.e. do multiple runs in parameter space to approach the desired values.
 

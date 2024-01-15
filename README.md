@@ -28,7 +28,7 @@ In all cases, the Nusselt number is computed as the ratio of heat flux across th
 
 **Leeds_vertical_convection_vortices.py** - this is included as a fun example rather than a physical demonstration.  The Rayleigh number is $10^4$ and the Prandtl number is $10^{-1.4}$ and for these parameters a well-defined pattern of secondary flow vortices is seen; the author's (quite possibly flawed) thinking was to lower the Prandtl number in order to widen the thermal boundary layer and thus get the flows associated to the two long edges to interact.  It is true that similar secondary flows are seen in Elder's tank experiments, but the author has not found it easy to reproduce these flows using Firedrake.  This example uses continuation to obtain the solution.  For reference, a value of $1.676$ is obtained for the Nusselt number.
 
-
+![vortex_solution](png/vortices_Temp.png "Multi-cell flow from Leeds_vertical_convection_vortices.py; note buoyancy force is horizontal in plot.")
 
 
 
